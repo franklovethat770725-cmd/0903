@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>金門三日遊行程</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { background-color: #f8fafc; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-image: radial-gradient(#CBD5E1 1px, transparent 1px); background-size: 20px 20px; }
+        .card { border-radius: 24px; transition: transform 0.2s; }
+        .primary-color { color: #3B7AAE; }
+        .bg-primary { background-color: #3B7AAE; }
+        .border-primary { border-color: #3B7AAE; }
+    </style>
+</head>
+<body class="pb-24">
+
+    <header class="bg-white p-6 shadow-md text-center">
+        <h1 class="text-2xl font-bold primary-color">金門通橋小金門三日遊</h1>
+        <p class="text-gray-500 text-sm">韓式風格・深度漫遊</p>
+    </header>
+
+    <div class="max-w-md mx-auto p-4 space-y-8">
+        
+        <section>
+            <h2 class="text-xl font-bold mb-4 primary-color"><i class="fas fa-sun mr-2"></i>Day 1：異國風情與軍事歷史</h2>
+            <div class="space-y-4">
+                <div class="card bg-white p-5 shadow-sm border-l-4 border-primary">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="font-bold text-lg">沙美摩洛哥</h3>
+                        <span class="text-xs bg-blue-100 primary-color px-2 py-1 rounded-full">#必拍</span>
+                    </div>
+                    <p class="text-sm text-gray-600 mb-2">分類：景點</p>
+                    <p class="text-xs text-gray-700 italic mb-3">💡 拍照小技巧：利用頹屋沙黃色牆面作為背景，低角度向上拍攝可展現異國感。</p>
+                    <p class="text-xs text-gray-500">🚗 停車：沙美老街周邊設有公共停車場，步行約 3 分鐘。</p>
+                </div>
+            </div>
+            <div class="mt-4 p-4 bg-white rounded-2xl text-sm text-gray-600 border border-gray-200">
+                <p>👗 建議穿著：大地色系休閒服飾，好走的運動鞋。</p>
+                <p>☀️ 天氣提示：金門夏季炎熱，請做好防曬，隨時補充水分。</p>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="text-xl font-bold mb-4 primary-color"><i class="fas fa-ship mr-2"></i>Day 2：跨海大橋與射擊體驗</h2>
+            <div class="space-y-4">
+                <div class="card bg-white p-5 shadow-sm border-l-4 border-primary">
+                    <h3 class="font-bold text-lg">后麟模擬靶場</h3>
+                    <span class="text-xs bg-pink-100 text-pink-600 px-2 py-1 rounded-full">#必玩</span>
+                    <p class="text-sm text-gray-600 mb-2">分類：活動</p>
+                    <p class="text-xs text-gray-700 italic mb-3">💡 拍照小技巧：與靶場內的軍事裝備互動拍攝，更有臨場感。</p>
+                    <p class="text-xs text-gray-500">🚗 停車：場館旁設有專用停車場。</p>
+                </div>
+            </div>
+            <div class="mt-4 p-4 bg-white rounded-2xl text-sm text-gray-600 border border-gray-200">
+                <p>👗 建議穿著：輕便俐落的褲裝，方便進行靶場模擬射擊。</p>
+                <p>☀️ 天氣提示：烈嶼（小金門）空曠，海風較大，可準備輕薄防風外套。</p>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="text-xl font-bold mb-4 primary-color"><i class="fas fa-history mr-2"></i>Day 3：閩南古厝與文化沉澱</h2>
+            <div class="space-y-4">
+                <div class="card bg-white p-5 shadow-sm border-l-4 border-primary">
+                    <h3 class="font-bold text-lg">水頭聚落/得月樓</h3>
+                    <span class="text-xs bg-yellow-100 text-yellow-700 px-2 py-1 rounded-full">#必買 #必拍</span>
+                    <p class="text-sm text-gray-600 mb-2">分類：景點</p>
+                    <p class="text-xs text-gray-700 italic mb-3">💡 拍照小技巧：利用得月樓的高聳結構作為地標，拍出建築的壯觀層次。</p>
+                    <p class="text-xs text-gray-500">🚗 停車：設有水頭聚落停車場。</p>
+                </div>
+            </div>
+            <div class="mt-4 p-4 bg-white rounded-2xl text-sm text-gray-600 border border-gray-200">
+                <p>👗 建議穿著：舒適的休閒鞋（聚落路面多為石板路）。</p>
+                <p>☀️ 天氣提示：金門午後陽光強烈，請配戴墨鏡。</p>
+            </div>
+        </section>
+    </div>
+
+    <nav class="fixed bottom-0 w-full bg-white shadow-lg p-3 flex justify-around border-t">
+        <a href="#" class="primary-color text-center"><i class="fas fa-home"></i><br>首頁</a>
+        <a href="#" class="text-gray-400 text-center"><i class="fas fa-map-marked-alt"></i><br>行程</a>
+        <a href="#" class="text-gray-400 text-center"><i class="fas fa-utensils"></i><br>美食</a>
+    </nav>
+
+</body>
+</html>
